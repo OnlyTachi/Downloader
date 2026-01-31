@@ -1,0 +1,4 @@
+# Ignorar downloads (durr)
+/downloads
+# Ignorar os caches do sistema
+__pycache__/
