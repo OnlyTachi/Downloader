@@ -1,11 +1,3 @@
-Essa é uma excelente estrutura para um README de projeto no GitHub ou para documentação pessoal no **Joplin**.
-
-Para tornar o documento mais profissional e fácil de ler, apliquei uma formatação Markdown aprimorada, utilizando **emojis**, **blocos de código com sintaxe destacada**, **tabelas** e **hierarquia de cabeçalhos**.
-
-Aqui está o conteúdo pronto para ser colado no seu Joplin:
-
----
-
 # 📥 Modular Hybrid Downloader
 
 Um sistema robusto e modular escrito em Python para baixar animes, séries e extrair magnet links de torrents automaticamente. O projeto utiliza uma abordagem híbrida (**Requests + Selenium**) para contornar proteções anti-bot e capturar links de vídeo ou torrents de forma inteligente.
