@@ -22,7 +22,7 @@ def get_driver():
     options.add_argument("--start-maximized")
     options.add_argument("--disable-dev-shm-usage")
 
-    # Configurações Anti-Detecção (Herdado do antigo utils.py)
+    # Configurações Anti-Detecção
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option("useAutomationExtension", False)

@@ -1,7 +1,6 @@
 import os
 import sys
 import webbrowser
-import platform
 import subprocess
 from core.driver import kill_driver
 from core.downloader import baixar_arquivo
@@ -13,9 +12,18 @@ from modules.animes.animefire import AnimeFire
 from modules.animes.animedrive import AnimeDrive
 from modules.torrent.redetorrent import RedeTorrent
 from modules.torrent.semtorrent import SemTorrent
+from modules.outros.google_drive import GoogleDrive
+from modules.outros.twitter import Twitter
 
 # Registro de Sites Suportados
-REGISTRY = [AnimeFire(), AnimeDrive(), RedeTorrent(), SemTorrent()]
+REGISTRY = [
+    AnimeFire(),
+    AnimeDrive(),
+    RedeTorrent(),
+    SemTorrent(),
+    GoogleDrive(),
+    Twitter(),
+]
 
 
 def identificar_site(url):
