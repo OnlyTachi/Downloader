@@ -44,7 +44,7 @@ Um sistema robusto e modular escrito em Python para baixar animes, séries e ext
 1. **Clone o repositório:**
 
 ```bash
-git clone https://seu-repositorio.git
+git clone https://github.com/OnlyTachi/Downloader.git
 cd Downloader
 
 ```
